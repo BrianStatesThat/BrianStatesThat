@@ -1,5 +1,6 @@
 ## Hi there 👋
-
+My name is Brian Speelman I am a web developer from South Africa and this is my Portfolio. 
+I design from the user interface to the code, hosting and domain name purchasing. 
 <!--
 **BrianStatesThat/BrianStatesThat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
