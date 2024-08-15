@@ -1,4 +1,6 @@
 ## Hi there 👋
+My name is Brian Speelman I am a web developer from Port Elizabeth/Gqeberha, this is my Portfolio.
+Visit my website and view how my most recent projects and designs.
 
 <!--
 **BrianStatesThat/BrianStatesThat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
