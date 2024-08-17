@@ -44,6 +44,7 @@
   }
   .navbar a:hover {
     background:var(--button-color2);
+    color: var(--header-color1);
     padding:5px;
     border-radius:5px;
   }
