@@ -1,73 +1,67 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"   content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
-    <title>Brian Speelman's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale:1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Brian's Portfolio</title>
   </head>
   <body>
     <header>
-        <div class="imageOne"><img src="#" alt="my photo"/></div>
-        <h1>Brian Speelman</h1>
-        <p>Hello my name is Brian, I am a Front-End Web Developer, UI/UX Designer and Cloud Technician from South Africa.
-             After having done Meta Front-End Web Development and Google IT Support Certificate courses from Coursera
-             I have been working on interesting projects, here is my portfolio:
-        </p>
-        <hr>
+      <div class="navbar" id="navbar">
+        <h2>BST</h2>
+        <nav id="navbar">
+          <ul>
+            <li><a href="#welcome-section">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <section id="portfolio">
-            <h3>Portfolio</h3>
-            <div></div>            
-        </section>
-        <hr>
-        <section id="skills">
-            <h3>Skills Summary and Technologies Used</h3>
-            <ul>
-                <li id="skill">HTML</li>
-                <li id="skill">CSS</li>
-                <li id="skill">JavaScript</li>
-                <li id="skill">Bootstrap</li>
-                <li id="skill">JQuery</li>
-                <li id="skill">AWS</li>
-                <li id="skill">Github</li>
-                <li id="skill">Figma</li>
-                <li id="skill">CompTIA A+</li>
-            </ul>
-            <div >
-                <p>Front-End Web Developer</p>
-                <p>UI/UX Designer with Figma</p>
-                <p>Cloud Technician</p>
-                <p></p>
-            </div>
-        </section>
-        <hr>
-        <section id="career">
-            <h3>Career Highlights</h3>
-            <p>Gqeberha, Manzi Co.</p>
-            <p>Web Developer</p>
-        </section>
-        <hr>
-        <section id="education">
-            <h3>Education</h3>
-            <p>Coursera</p>
-            <p><a href="#">Visit Coursera</a></p>
-            <br>
-            <p>freeCodeCamp</p>
-            <p><a href="#">Visit freeCodeCamp</a></p>
-        </section>
-        <hr>
-        <section id="contact">
-            <div>
-                <h3>Contact</h3>
-                <p>Email: mbspeelman@proton.me</p>
-                <p>Glassdoor: Mandilakhe Brian Speelman</p>
-            </div>
-        </section>
+      <section id="welcome-section">
+        <div class="welcome-section">
+          <div class="description">
+          <h1>Hi, my name is Brian and I am a Front-End Web Developer.</h1>
+          <p>If you would like to increase the online presence of your business but don't know where to start, I am your go to guy. I can help you build a fantastic website to meet the needs of your customers and the needs of your business (UI and UX). Click on the button below to download my Carriculumn Vitae:</p>
+          <input type="button" value="Download CV" name="cv" id="cv-button"/>
+        </div>
+        <div class="personal-photo">
+          <img />
+        </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-description">
+            <h4>Connect with us on the following channels:</h4>
+          </div>
+        <div class="contact">
+          <div class="twitter"><a href="http://x.com/brianstatesthat" id="profile-link" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgNC41NTdjLS44ODMuMzkyLTEuODMyLjY1Ni0yLjgyOC43NzUgMS4wMTctLjYwOSAxLjc5OC0xLjU3NCAyLjE2NS0yLjcyNC0uOTUxLjU2NC0yLjAwNS45NzQtMy4xMjcgMS4xOTUtLjg5Ny0uOTU3LTIuMTc4LTEuNTU1LTMuNTk0LTEuNTU1LTMuMTc5IDAtNS41MTUgMi45NjYtNC43OTcgNi4wNDUtNC4wOTEtLjIwNS03LjcxOS0yLjE2NS0xMC4xNDgtNS4xNDQtMS4yOSAyLjIxMy0uNjY5IDUuMTA4IDEuNTIzIDYuNTc0LS44MDYtLjAyNi0xLjU2Ni0uMjQ3LTIuMjI5LS42MTYtLjA1NCAyLjI4MSAxLjU4MSA0LjQxNSAzLjk0OSA0Ljg5LS42OTMuMTg4LTEuNDUyLjIzMi0yLjIyNC4wODQuNjI2IDEuOTU2IDIuNDQ0IDMuMzc5IDQuNiAzLjQxOS0yLjA3IDEuNjIzLTQuNjc4IDIuMzQ4LTcuMjkgMi4wNCAyLjE3OSAxLjM5NyA0Ljc2OCAyLjIxMiA3LjU0OCAyLjIxMiA5LjE0MiAwIDE0LjMwNy03LjcyMSAxMy45OTUtMTQuNjQ2Ljk2Mi0uNjk1IDEuNzk3LTEuNTYyIDIuNDU3LTIuNTQ5eiIvPjwvc3ZnPg==" alt="Twitter/X"></a></div>
+        </div>
+        <div class="instagram"><a href="http://instagram.com/brianstatesthat" id="profile-link" target="_blank"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTUuMjMzIDUuNDg4Yy0uODQzLS4wMzgtMS4wOTctLjA0Ni0zLjIzMy0uMDQ2cy0yLjM4OS4wMDgtMy4yMzIuMDQ2Yy0yLjE3LjA5OS0zLjE4MSAxLjEyNy0zLjI3OSAzLjI3OS0uMDM5Ljg0NC0uMDQ4IDEuMDk3LS4wNDggMy4yMzNzLjAwOSAyLjM4OS4wNDcgMy4yMzNjLjA5OSAyLjE0OCAxLjEwNiAzLjE4IDMuMjc5IDMuMjc5Ljg0My4wMzggMS4wOTcuMDQ3IDMuMjMzLjA0NyAyLjEzNyAwIDIuMzktLjAwOCAzLjIzMy0uMDQ2IDIuMTctLjA5OSAzLjE4LTEuMTI5IDMuMjc5LTMuMjc5LjAzOC0uODQ0LjA0Ni0xLjA5Ny4wNDYtMy4yMzNzLS4wMDgtMi4zODktLjA0Ni0zLjIzMmMtLjA5OS0yLjE1My0xLjExMS0zLjE4Mi0zLjI3OS0zLjI4MXptLTMuMjMzIDEwLjYyYy0yLjI2OSAwLTQuMTA4LTEuODM5LTQuMTA4LTQuMTA4IDAtMi4yNjkgMS44NC00LjEwOCA0LjEwOC00LjEwOHM0LjEwOCAxLjgzOSA0LjEwOCA0LjEwOGMwIDIuMjY5LTEuODM5IDQuMTA4LTQuMTA4IDQuMTA4em00LjI3MS03LjQxOGMtLjUzIDAtLjk2LS40My0uOTYtLjk2cy40My0uOTYuOTYtLjk2Ljk2LjQzLjk2Ljk2LS40My45Ni0uOTYuOTZ6bS0xLjYwNCAzLjMxYzAgMS40NzMtMS4xOTQgMi42NjctMi42NjcgMi42NjdzLTIuNjY3LTEuMTk0LTIuNjY3LTIuNjY3YzAtMS40NzMgMS4xOTQtMi42NjcgMi42NjctMi42NjdzMi42NjcgMS4xOTQgMi42NjcgMi42Njd6bTQuMzMzLTEyaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS45NTIgMTUuMjk4Yy0uMTMyIDIuOTA5LTEuNzUxIDQuNTIxLTQuNjUzIDQuNjU0LS44NTQuMDM5LTEuMTI2LjA0OC0zLjI5OS4wNDhzLTIuNDQ0LS4wMDktMy4yOTgtLjA0OGMtMi45MDgtLjEzMy00LjUyLTEuNzQ4LTQuNjU0LTQuNjU0LS4wMzktLjg1My0uMDQ4LTEuMTI1LS4wNDgtMy4yOTggMC0yLjE3Mi4wMDktMi40NDUuMDQ4LTMuMjk4LjEzNC0yLjkwOCAxLjc0OC00LjUyMSA0LjY1NC00LjY1My44NTQtLjA0IDEuMTI1LS4wNDkgMy4yOTgtLjA0OXMyLjQ0NS4wMDkgMy4yOTkuMDQ4YzIuOTA4LjEzMyA0LjUyMyAxLjc1MSA0LjY1MyA0LjY1My4wMzkuODU0LjA0OCAxLjEyNy4wNDggMy4yOTkgMCAyLjE3My0uMDA5IDIuNDQ1LS4wNDggMy4yOTh6Ii8+PC9zdmc+" alt="instagram">
+        </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects">
+          <div class="project-tile">
+            <h4></h4>
+            <a></a>
+          </div>
+            <div class="project-tile">
+              <h4></h4>
+              <a></a>
+              </div>
+              <div class="project-tile">
+                <h4></h4>
+                <a></a>
+              </div>
+        </div>
+      </section>
     </main>
-    <footer class="flex">
-      <h3 class="flex">Arrow Smart IT Solutions: Copyright 2024.</h3>
-    </footer>
   </body>
-  <script src="script.js"></script>
 </html>
