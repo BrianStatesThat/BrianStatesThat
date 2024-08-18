@@ -154,3 +154,6 @@
       width: 350px;
     }
 
+    label, input, textarea, select {
+      display: block;
+    }
