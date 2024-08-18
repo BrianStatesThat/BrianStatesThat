@@ -173,8 +173,11 @@
     .contactForm button {
       background: var(--button-color1);
       color: var(--button-color2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 4px auto;
       margin: 5px auto;
       width: 100px;
-      height: 10px;
+      height: 30px;
     }
