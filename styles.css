@@ -182,6 +182,11 @@
       height: 30px;
     }
 
+    .glow-button:hover {
+      background: linear-gradient(45deg, #6a0dad, #4a90e2, #f39c12);
+      box-shadow: 0 0 20px rgba(106,13,173,0.8), 0 0 30px rgba(74,144,226,0.8), 0 0 40px rgba(243,156,18,0.8);
+    }
+
     .contactForm {
       width:80%;
       height: 100%;
