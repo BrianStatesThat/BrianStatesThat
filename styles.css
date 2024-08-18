@@ -156,11 +156,11 @@
 
     .contactForm h1 {
       text-align: center;
-      margin
     }
 
     .form p {
       width:90%;
+      text-align: center;
     }
 
     label, input, textarea, select {
