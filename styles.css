@@ -137,7 +137,7 @@
     /* form */
 
     .contactForm {
-      display: flex;
+      display: block;
       flex-direction: row;
       justify-content: center;
       align-items: center;
