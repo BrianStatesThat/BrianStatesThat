@@ -161,3 +161,8 @@
       width: 300px;
       padding: 0 auto;
     }
+
+    .contactForm p , .contactForm h1 {
+      text-align:center;
+      
+    }
