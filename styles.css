@@ -138,10 +138,15 @@
 
     .contactForm {
       display: block;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 40px auto;
+      margin: 0 auto;
+      ;
+    }
+
+    .form {
+      display:block;
       background: white;
-      border: linear-gradient(violet,lime,purple, green,pink);
+      border: linear-gradient(violet,lime,purple, green,pink)
     }
