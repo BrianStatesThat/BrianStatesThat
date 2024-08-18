@@ -136,7 +136,8 @@
 
     /* form */
 
-    .contactForm {
+    .contactForm, .contactForm h1 {
+      padding-top:50px;
       display: block;
       flex-direction: column;
       justify-content: center;
@@ -152,3 +153,4 @@
       height; 30px;
       width: 350px;
     }
+
