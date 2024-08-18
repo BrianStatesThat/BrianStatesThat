@@ -47,6 +47,7 @@
     color: var(--header-color1);
     padding:5px;
     border-radius:5px;
+    box-shadow: 0 0 20px rgba(106,13,173,0.8), 0 0 30px rgba(74,144,226,0.8), 0 0 40px rgba(243,156,18,0.8);
   }
   
   #navbar ul {
