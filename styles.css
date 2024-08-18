@@ -162,6 +162,10 @@
       padding: 0 auto;
     }
 
+    .contactForm input {
+      border: 0.5px solid var(--button-color3);
+    }
+
     .contactForm p , .contactForm h1 {
       text-align:center;
 
