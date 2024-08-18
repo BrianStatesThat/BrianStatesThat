@@ -144,14 +144,11 @@
     }
 
     .form  {
-      display:block;
+      display:flex;
+      flex-direction: column;
       background: white;
       border: linear-gradient(violet,lime,purple);
       margin: 10px auto;
       height; 30px;
       width: 350px;
-    }
-
-    .formD {
-      margin-top:45px;
     }
