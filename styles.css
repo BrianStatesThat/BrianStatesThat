@@ -141,13 +141,13 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
-      ;
     }
 
     .form label, .form input, .form textarea {
       display:block;
       background: white;
       border: linear-gradient(violet,lime,purple);
-
+      margin: 40px auto;
+      height; 30px;
+      width: 350px;
     }
