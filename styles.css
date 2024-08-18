@@ -143,11 +143,15 @@
       align-items: center;
     }
 
-    .form label, .form input, .form textarea, .form select {
+    .form  {
       display:block;
       background: white;
       border: linear-gradient(violet,lime,purple);
       margin: 10px auto;
       height; 30px;
       width: 350px;
+    }
+
+    .formD {
+      margin-top:45px;
     }
