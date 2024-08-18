@@ -43,7 +43,7 @@
   
   }
   .navbar a:hover {
-    background:var(--button-color2);
+    background:var(--button-color23;
     color: var(--header-color1);
     padding:5px;
     border-radius:5px;
@@ -154,7 +154,7 @@
       width: 350px;
     }
 
-    label, input, textarea, select {
+    .contactForm label, .contactForm input, .contactForm textarea, .contactForm select {
       display: block;
       margin-bottom: 5px;
       border-radius: 5px;
@@ -164,5 +164,5 @@
 
     .contactForm p , .contactForm h1 {
       text-align:center;
-      
+
     }
