@@ -170,7 +170,7 @@
       text-align:center;
     }
 
-    .contactForm button {
+    .contactForm button , .profile button {
       background: var(--button-color1);
       color: var(--button-color2);
       display: flex;
@@ -180,4 +180,14 @@
       margin: 5px auto;
       width: 100px;
       height: 30px;
+    }
+
+    /*Profile*/
+
+    .profile {
+      display: flex;
+      margin-top:50px auto;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
     }
