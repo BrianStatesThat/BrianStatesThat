@@ -151,27 +151,10 @@
       border: linear-gradient(violet 30%,lime 30%,purple 40%);
       margin: 10px auto;
       height; 30px;
-      width: 400px;
-    }
-
-    .contactForm h1 {
-      text-align: center;
-    }
-
-    .form p {
-      width:90%;
-      text-align: center;
-      text-wrap: wrap;
+      width: 350px;
     }
 
     label, input, textarea, select {
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 5px auto;
-      width: 350%;
+      display: block;
+      margin-bottom: 5px;
     }
-
-  
-    
