@@ -168,5 +168,13 @@
 
     .contactForm p , .contactForm h1 {
       text-align:center;
+    }
 
+    .contactForm button {
+      background: var(--button-color1);
+      color: var(--button-color2);
+      padding: 4px auto;
+      margin: 5px auto;
+      width: 100px;
+      height: 10px;
     }
