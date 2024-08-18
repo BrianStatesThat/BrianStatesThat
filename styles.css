@@ -145,8 +145,9 @@
       ;
     }
 
-    .form {
+    .form label, .form input, .form textarea {
       display:block;
       background: white;
-      border: linear-gradient(violet,lime,purple, green,pink)
+      border: linear-gradient(violet,lime,purple);
+
     }
