@@ -154,6 +154,14 @@
       width: 350px;
     }
 
+    .form h1 {
+      text-align: center;
+    }
+
+    .form p {
+      width:90%;
+    }
+
     label, input, textarea, select {
       display: block;
       margin-bottom: 5px;
