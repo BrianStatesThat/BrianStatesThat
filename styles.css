@@ -151,7 +151,7 @@
       border: linear-gradient(violet 30%,lime 30%,purple 40%);
       margin: 10px auto;
       height; 30px;
-      width: 350px;
+      width: 400px;
     }
 
     .contactForm h1 {
@@ -161,11 +161,14 @@
     .form p {
       width:90%;
       text-align: center;
+      padding-left: 20%;
+      text-wrap: wrap;
     }
 
     label, input, textarea, select {
       display: block;
       margin-bottom: 5px;
+      width: 350%;
     }
 
     
