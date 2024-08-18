@@ -157,4 +157,7 @@
     label, input, textarea, select {
       display: block;
       margin-bottom: 5px;
+      border-radius: 5px;
+      width: 300px;
+      padding: 0 auto;
     }
