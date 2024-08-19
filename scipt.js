@@ -1,7 +1,8 @@
-/* Menu */
-    const menuToggle = document.querySelectorAll(".menu-toggle");
-    const menu = document.querySelectorAll(".menu");
-
-    menuToggle.addEventListener("click", () => {
-        menu.classList.toggle('open');
-    });
+/*Menu List*/
+function openMenu() {
+    document.getElementById("menu").style.left = "0";
+  }
+  
+  function closeMenu() {
+    document.getElementById("menu").style.left = "-250px";
+  }

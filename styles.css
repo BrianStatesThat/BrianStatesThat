@@ -216,56 +216,57 @@
 
     /*Menu*/
 
-    .menu-toggle {
-      position: absolute;
-      top: 5px;
-      left: 10px;
-      background: #333;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-      padding: 10px;
-      font-size: 20px; /* Adjust size as needed */
-      z-index: 10;
-      border-radius: 50%; /* Optional: Makes the button circular */
-  }
-  
-  .menu-toggle i {
-      margin: 0; /* Removes default margin/padding */
-  }
-  
-  .menu {
+    .menu-container {
+      position: relative;
+    }
+    
+    .menu {
+      height: 100%;
+      width: 100%; /* Width of the sliding menu */
       position: fixed;
       top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #333;
-      color: #fff;
-      transform: translateY(-100%);
-      transition: transform 0.3s ease;
-      overflow: hidden;
-      z-index: 9;
-  }
-  
-  .menu ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-  }
-  
-  .menu ul li {
-      margin: 20px 0;
-  }
-  
-  .menu ul li a {
-      color: #fff;
+      left: -100%; /* Hide menu off-screen */
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.3s; /* Smooth slide transition */
+      padding-top: 60px;
+      z-index: 1;
+    }
+    
+    .menu a {
+      padding: 8px 16px;
       text-decoration: none;
-      font-size: 24px;
+      font-size: 25px;
+      color: white;
       display: block;
-  }
-  
-  .menu.open {
-      transform: translateY(0);
-  }
+      transition: 0.3s;
+    }
+    
+    .menu a:hover {
+      background-color: #575757;
+    }
+    
+    .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      padding: 10px 15px;
+      background-color: #111;
+      color: white;
+      border: none;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 2;
+    }
+    
+    .openbtn:hover {
+      background-color: #575757;
+    }
