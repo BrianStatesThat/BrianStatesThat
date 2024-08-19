@@ -1,9 +1,9 @@
 /* Menu */
-document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const menu = document.querySelector('.menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelectorAll(".menu-toggle");
+    const menu = document.querySelectorAll(".menu");
 
-    menuToggle.addEventListener('click', function() {
+    menuToggle.addEventListener("click", () => {
         menu.classList.toggle('open');
     });
 });
