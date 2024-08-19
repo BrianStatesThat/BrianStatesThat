@@ -217,19 +217,19 @@
     /*Menu*/
 
     .menu-container {
-      position: absolute;
+      position: relative;
     }
     
     .menu {
       height: 100%;
       width: 100%; /* Width of the sliding menu */
       position: fixed;
-      top: -100%;
-      right: 0; /* Hide menu off-screen */
+      top: -100%; /* Hide menu off-screen */
+      right: 0; 
       background-color: #111;
       overflow-x: hidden;
       transition: 0.3s; /* Smooth slide transition */
-      padding-top: 60px;
+      padding-top: 20px;
       z-index: 99;
     }
     
