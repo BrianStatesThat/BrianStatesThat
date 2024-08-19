@@ -130,6 +130,7 @@
     margin-bottom:10vh;
     padding:25px 10px;
     background:var(--header-color1);
+    z-index: 1;
   }
   
   .project-tile {
