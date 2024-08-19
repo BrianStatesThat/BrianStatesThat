@@ -4,5 +4,5 @@ function openMenu() {
   }
   
   function closeMenu() {
-    document.getElementById("menu").style.top = "-100%";
+    document.getElementById("menu").style.top = "-300px";
   }
