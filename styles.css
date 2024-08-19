@@ -225,7 +225,7 @@
       width: 100%; /* Width of the sliding menu */
       position: fixed;
       top: 0;
-      left: -100%; /* Hide menu off-screen */
+      right: -100%; /* Hide menu off-screen */
       background-color: #111;
       overflow-x: hidden;
       transition: 0.3s; /* Smooth slide transition */
