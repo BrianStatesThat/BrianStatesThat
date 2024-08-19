@@ -217,15 +217,15 @@
     /*Menu*/
 
     .menu-container {
-      position: relative;
+      position: fixed;
     }
     
     .menu {
       height: 100%;
       width: 100%; /* Width of the sliding menu */
       position: fixed;
-      top: 0;
-      right: -100%; /* Hide menu off-screen */
+      top: -100%;
+      right: 0; /* Hide menu off-screen */
       background-color: #111;
       overflow-x: hidden;
       transition: 0.3s; /* Smooth slide transition */
@@ -252,6 +252,8 @@
       right: 25px;
       font-size: 36px;
       margin-left: 50px;
+      border-radius: 50%;
+      padding: 5px;
     }
     
     .openbtn {
