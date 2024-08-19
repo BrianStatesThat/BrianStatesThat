@@ -212,3 +212,59 @@
       align-items: center;
       text-align: center;
     }
+
+    /*Menu*/
+
+    .menu-toggle {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 24px; /* Adjust size as needed */
+      z-index: 10;
+      border-radius: 50%; /* Optional: Makes the button circular */
+  }
+  
+  .menu-toggle i {
+      margin: 0; /* Removes default margin/padding */
+  }
+  
+  .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #333;
+      color: #fff;
+      transform: translateY(-100%);
+      transition: transform 0.3s ease;
+      overflow: hidden;
+      z-index: 9;
+  }
+  
+  .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+  }
+  
+  .menu ul li {
+      margin: 20px 0;
+  }
+  
+  .menu ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 24px;
+      display: block;
+  }
+  
+  .menu.open {
+      transform: translateY(0);
+  }
