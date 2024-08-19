@@ -217,7 +217,7 @@
     /*Menu*/
 
     .menu-container {
-      position: fixed;
+      position: absolute;
     }
     
     .menu {
