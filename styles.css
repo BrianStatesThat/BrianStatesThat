@@ -221,10 +221,10 @@
     }
     
     .menu {
-      height: 100%;
-      width: 100%; /* Width of the sliding menu */
-      position: absolute;
-      top: -300px; /* Hide menu off-screen */
+      height: 100vh;
+      width: 100vw; /* Width of the sliding menu */
+      position: fixed;
+      top: -100vh; /* Hide menu off-screen */
       right: 0; 
       background-color: #111;
       overflow-y: hidden;
