@@ -1,5 +1,4 @@
 /*Menu List*/
-
 const menuList = document.getElementById("menu");
 
 const openBtn = () => {
