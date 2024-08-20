@@ -2,10 +2,10 @@
 
 const menuList = document.getElementById("menu");
 
-const open = () => {
+const openBtn = () => {
     menuList.style.left("0");
 }
 
-const close = () => {
+const closeBtn = () => {
     menuList.style.left("-250px");
 }
