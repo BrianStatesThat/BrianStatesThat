@@ -240,6 +240,7 @@
     color: white;
     display: block;
     transition: 0.3s;
+    text-align: center;
   }
   
   .menu a:hover {
