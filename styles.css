@@ -215,52 +215,55 @@
     }
 
     /*Menu*/
-
-  #menu-toggle {
-      color: white;
-      font-size: 24px;
-      cursor: pointer;
-      position:fixed;
-      top:2px;
-      right:10px;
+  
+  .menu-container {
+    position: relative;
   }
   
   .menu {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #444;
-      transform: translateY(-100%);
-      transition: transform 0.3s ease;
-  }
-  
-  .menu ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-  }
-  
-  .menu li {
-      padding: 15px;
-      border-bottom: 1px solid #555;
+    height: 100%;
+    width: 250px; /* Width of the sliding menu */
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hide menu off-screen */
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s; /* Smooth slide transition */
+    padding-top: 60px;
+    z-index: 1;
   }
   
   .menu a {
-      color: white;
-      text-decoration: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: #575757;
   }
   
   .close-btn {
-      color: white;
-      font-size: 30px;
-      cursor: pointer;
-      display: block;
-      text-align: right;
-      padding-right: 15px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
   }
   
-  .menu.open {
-      transform: translateY(0);
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #111;
+    color: white;
+    border: none;
+    position: fixed;
+    z-index: 2;
+    top:5px;
+    right:10px;
+    border-radius: 50%;
   }
