@@ -226,7 +226,7 @@
     position: fixed;
     top: -100vh;
     left: 0; /* Hide menu off-screen */
-    background-color: #111;
+    background-color: var(--header-color1);
     overflow-x: hidden;
     transition: 0.3s; /* Smooth slide transition */
     padding-top: 60px;
@@ -237,14 +237,14 @@
     padding: 8px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: var(--button-color2);
     display: block;
     transition: 0.3s;
     text-align: center;
   }
   
   .menu a:hover {
-    background-color: #575757;
+    background-color: var(--button-color1);
   }
   
   .close-btn {
@@ -258,9 +258,9 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    padding: 10px 15px;
-    background-color: #111;
-    color: white;
+    padding: 7.5px 15px;
+    background-color: var(--header-color1);
+    color: var(--button-color2);
     border: none;
     position: fixed;
     z-index: 2;
