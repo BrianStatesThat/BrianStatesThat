@@ -6,5 +6,5 @@ const openBtn = () => {
 }
 
 const closeBtn = () => {
-    menuList.style.top="100vh";
+    menuList.style.top="-100vh";
 }
