@@ -12,22 +12,24 @@
   <body>
     <header>
       <div class="navbar" id="navbar">
-        <h2>BST</h2>
+        <nav>
+          <h2>BST</h2>
+          <span class="openbtn" id="menu-toggle">&#9776;</span>
+          <div id="menu" class="menu">
+            <ul>
+              <li><span class="close-btn" onclick="closeMenu()">&times;</span></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="./profile.html">Profile</a></li>
+              <li><a href="./profile.html">Portfolio</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="./contact.html">Connect</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
-      <div id="navbar" class="menu">
-        <ul>
-          <li><a href="#" class="closebtn" onclick="closeMenu()">&times;</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="./profile.html">Profile</a></li>
-          <li><a href="./profile.html">Portfolio</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="./contact.html">Connect</a></li>
-        </ul>
-      </div>
-      <span class="openbtn" onclick="openMenu()">&#9776; Menu</span>
       <section id="welcome-section">
         <div class="welcome-section">
           <div class="description">

@@ -1,10 +1,11 @@
 /*Menu List*/
-function openMenu() {
-  document.getElementById("menu").style.top = "0";
-  document.getElementById("menu").style.display = "flex"
-  }
-  
-  function closeMenu() {
-    document.getElementById("menu").style.top = "-100vh";
-    document.getElementById("menu").style.display = "fixed";
-  }
+const menuToggle = document.getElementById('menu-toggle');
+const closeBtn = document.getElementById('close-btn');
+
+menuToggle.addEventListener("click", () => {
+  document.getElementById('menu').classList.toggle("open");
+});
+
+closeBtn.addEventListener("click", () => {
+  document.getElementById("menu").classList.remove("open");
+});
