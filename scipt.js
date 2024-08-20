@@ -2,9 +2,9 @@
 const menuList = document.getElementById("menu");
 
 const openBtn = () => {
-    menuList.style.left="0";
+    menuList.style.top="0";
 }
 
 const closeBtn = () => {
-    menuList.style.left="-250px";
+    menuList.style.top="100vh";
 }
