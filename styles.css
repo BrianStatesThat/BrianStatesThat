@@ -264,7 +264,7 @@
     border: none;
     position: fixed;
     z-index: 2;
-    top:5px;
+    top:0;
     right:10px;
     border-radius: 50%;
   }
