@@ -241,19 +241,21 @@
     display: block;
     transition: 0.3s;
     text-align: center;
-    border-bottom:1px solid linear-gradient(45deg, #6a0dad, #4a90e2, #f39c12);
+    background:  linear-gradient(45deg, #6a0dad, #4a90e2, #f39c12);
   }
   
   .menu a:hover {
     background-color: var(--button-color1);
+    box-shadow: 0 0 20px rgba(106,13,173,0.8), 0 0 30px rgba(74,144,226,0.8), 0 0 40px rgba(243,156,18,0.8);
   }
   
   .close-btn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 45px;
     margin-left: 50px;
+    font-weight: 300;
   }
   
   .openbtn {
@@ -268,5 +270,4 @@
     top:0;
     right:10px;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(106,13,173,0.8), 0 0 30px rgba(74,144,226,0.8), 0 0 40px rgba(243,156,18,0.8);
   }
