@@ -241,6 +241,7 @@
     display: block;
     transition: 0.3s;
     text-align: center;
+    border-bottom:1px solid linear-gradient(45deg, #6a0dad, #4a90e2, #f39c12);
   }
   
   .menu a:hover {
