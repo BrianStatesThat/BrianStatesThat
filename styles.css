@@ -216,11 +216,13 @@
 
     /*Menu*/
 
-    #menu-toggle {
+  #menu-toggle {
       color: white;
       font-size: 24px;
       cursor: pointer;
-      float: right;
+      position:fixed;
+      top:2px;
+      right:10px;
   }
   
   .menu {

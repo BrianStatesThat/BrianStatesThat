@@ -1,11 +1,8 @@
 /*Menu List*/
-const menuToggle = document.getElementById('menu-toggle');
-const closeBtn = document.getElementById('close-btn');
+const menuToggle = document.getElementById("menu-toggle");
+const closeBtn = document.getElementById("close-btn");
+const menuList = document.getElementById("menu");
 
-menuToggle.addEventListener("click", () => {
-  document.getElementById('menu').classList.toggle("open");
-});
+menuToggle.addEventListener("click", () => menuList.classList.toggle("open"));
 
-closeBtn.addEventListener("click", () => {
-  document.getElementById("menu").classList.remove("open");
-});
+closeBtn.addEventListener("click", () => menuList.classList.remove("open"));
