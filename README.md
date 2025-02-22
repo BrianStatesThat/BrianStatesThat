@@ -1,17 +1,28 @@
-## Hi there 👋
-My name is Brian Speelman I am a web developer from South Africa and this is my Portfolio. 
-I design from the user interface to the code, hosting and domain name purchasing. 
-<!--
-**BrianStatesThat/BrianStatesThat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hey there! I'm Mandilake Brian Speelman
 
-Here are some ideas to get you started:
+## Software Developer | IT Consultant | Aspiring AI Engineer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am a passionate front-end developer with growing expertise in Next.js, React, and JavaScript. With a strong background in IT support, cybersecurity, and system administration, I specialize in building scalable, user-friendly web applications and integrating AI-driven solutions.
+
+### 🚀 What 
+I'm Working On:
+- Open-source employment platform for South Africa's labor force
+- Next.js portfolio website showcasing my projects and skills
+- Exploring blockchain and back-end development to expand my full-stack capabilities
+
+### 🔧 Skills & Tools:
+- **Frontend:** React, Next.js, JavaScript, Tailwind CSS
+- **Backend:** Learning Node.js, API development
+- **DevOps:** Linux, Networking, System Administration
+- **AI & Blockchain:** Exploring AI integration and smart contracts
+
+### 📖 Background:
+With a foundation in analytical chemistry and years of experience in customer support, I bring strong problem-solving and communication skills to tech. My goal is to develop solutions that simplify lives, empower businesses, and drive innovation.
+
+### 📬 Let's Connect:
+- **Portfolio:** [arrowsmartsolutions.online](https://arrowsmartsolutions.online)
+- **Email:** mbspeelman@proton.me
+- **LinkedIn:** [](#)
+- **Twitter:** [](#) (if applicable)
+
+Always learning, building, and pushing boundaries. Let's create something amazing!
