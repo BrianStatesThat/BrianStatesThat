@@ -14,7 +14,7 @@ I am a passionate front-end developer with growing expertise in Next.js, React, 
 - **Backend:** Learning Node.js, API development
 - **DevOps:** Linux, Networking, System Administration
 - **AI & Blockchain:** Exploring AI integration and smart contracts
-- **Other Languages and Tools:** C++, Cloudflare, Vercel, VS Code, MS Visual Studio, Miro, Figma
+- **Other Languages and Tools:** C++, Cloudflare, Vercel, VS Code, MS Visual Studio, Miro, Figma, AWS
 
 ### 📖 Background:
 With a foundation in analytical chemistry and years of experience in customer support, I bring strong problem-solving and communication skills to tech. My goal is to develop solutions that simplify lives, empower businesses, and drive innovation.
