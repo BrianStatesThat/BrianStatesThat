@@ -20,7 +20,7 @@ I am a passionate front-end developer with growing expertise in Next.js, React, 
 With a foundation in analytical chemistry and years of experience in customer support, I bring strong problem-solving and communication skills to tech. My goal is to develop solutions that simplify lives, empower businesses, and drive innovation.
 
 ### 📬 Let's Connect:
-- **Portfolio:** [arrowsmartsolutions.online](https://arrowsmartsolutions.online)
+- **Portfolio:** [brianspeelman.vercel.app](https://brianspeelman.vercel.app)
 - **Email:** mbspeelman@proton.me
 - **LinkedIn:** [https://www.linkedin.com/in/brian-s-487a0b58/](#)
 - **Twitter:** [https://www.x.com/brianstatesthat](#)
