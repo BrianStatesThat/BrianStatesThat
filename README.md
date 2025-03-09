@@ -1,6 +1,6 @@
 # Hey there! I'm Mandilake Brian Speelman
 
-## Software Developer | IT Consultant | Aspiring AI Engineer
+## Software Engineer | IT Consultant
 
 I am a passionate front-end developer with growing expertise in Next.js, React, and JavaScript. With a strong background in IT support, cybersecurity, and system administration, I specialize in building scalable, user-friendly web applications and integrating AI-driven solutions.
 
