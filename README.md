@@ -10,7 +10,7 @@ I am a passionate front-end developer with growing expertise in Next.js, React, 
 - Exploring back-end development to expand my full-stack capabilities
 
 ### 🔧 Skills & Tools:
-- **Frontend:** React, Next.js, JavaScript, Tailwind CSS, Motion, JSON, Zustand, Axios, React Router DOM, OAuth, JWT, REST/GraphQL, Session-based authentication
+- **Frontend:** React, Next.js, JavaScript, Tailwind CSS, Motion, JSON, Zustand, Axios, React Router DOM, OAuth, JWT, REST/GraphQL, Session-based authentication, Postman
 - **Backend:** Learning Node.js, API development, Django
 - **DevOps:** Linux, Networking, System Administration
 - **AI & Blockchain:** Exploring AI integration and smart contracts
