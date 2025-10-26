@@ -1,8 +1,8 @@
 # Hey there! I'm Mandilake Brian Speelman
 
-## Software Engineer | Aspiring Full-Stack Developer
+## Software Engineer
 
-I am a passionate front-end developer with growing expertise in Next.js, React, and JavaScript. With a strong background in IT support, cybersecurity, and system administration, I specialize in building scalable, user-friendly web applications and integrating AI-driven solutions.
+I am a developer with growing expertise in Next.js, React, and JavaScript, Python, Django REST fremework, C++, Qt. With a strong background in IT support, cybersecurity, and system administration, I specialize in building scalable, user-friendly web applications and integrating AI-driven solutions.
 
 ### What I'm Working On:
 - Open-source employment platform for South Africa's labor force
