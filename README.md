@@ -10,14 +10,14 @@ I am a developer with growing expertise in Next.js, React, and JavaScript, Pytho
 - Exploring back-end development to expand my full-stack capabilities
 
 ### Skills & Tools:
-- **Frontend:** React, Next.js, JavaScript, Tailwind CSS, Motion, JSON, Zustand, Axios, React Router DOM, OAuth, JWT, REST/GraphQL, Session-based authentication, Postman, React Native: Android Apps, NativeWind, Expo Go
-- **Backend:** API Development, Django REST Framework: Serializers, QuerySets, ViewSets, Routers, Authentication and Permissions, PostgreSQL
+- **Frontend:** React, Next.js, JavaScript, Tailwind CSS, Motion, JSON, Zustand, Axios, React Router DOM, JWT, REST/GraphQL, Session-based authentication, React Native: Android Apps, NativeWind, Expo Go
+- **Backend:** API Development, Django REST Framework: Serializers, QuerySets, ViewSets, Routers, Authentication and Permissions, PostgreSQL, OAuth, Postman 
 - **DevOps:** Linux, Networking, System Administration
 - **AI & Blockchain:** Exploring AI integration and smart contracts
 - **Other Languages and Tools:** C++, Cloudflare, Vercel, VS Code, MS Visual Studio, Miro, Figma, AWS, Python, Postman, PIP, NPM
 
 ### Background:
-With a foundation in analytical chemistry and years of experience in IT support and customer support, I bring strong problem-solving and communication skills to tech. My goal is to develop solutions that simplify lives, empower businesses, and drive innovation.
+With a foundation in analytical chemistry and years of experience in IT support and customer travel support, I bring strong problem-solving and communication skills to tech. My goal is to develop solutions that simplify lives, empower businesses, and drive innovation in the most sustainable way possible.
 
 ### Let's Connect:
 - **Portfolio:** [brianspeelman.vercel.app](https://brianspeelman.vercel.app)
