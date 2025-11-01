@@ -1,8 +1,8 @@
 # Hey there! I'm Mandilake Brian Speelman
 
-## Software Engineer
+## Software Developer
 
-I am a developer with growing expertise in Next.js, React, and JavaScript, Python, Django REST fremework, C++, Qt. With a strong background in IT support, cybersecurity, and system administration, I specialize in building scalable, user-friendly web applications and integrating AI-driven solutions.
+I am a developer with growing expertise in Next.js, React, React Native and JavaScript, Python, Django REST fremework, C++, Qt. With a strong background in IT support, cybersecurity, and system administration, I specialize in building scalable, user-friendly web applications, mobile applications and integrating AI-driven solutions.
 
 ### What I'm Working On:
 - Open-source employment platform for South Africa's labor force
@@ -11,10 +11,10 @@ I am a developer with growing expertise in Next.js, React, and JavaScript, Pytho
 
 ### Skills & Tools:
 - **Frontend:** React, Next.js, JavaScript, Tailwind CSS, Motion, JSON, Zustand, Axios, React Router DOM, JWT, REST/GraphQL, Session-based authentication, React Native: Android Apps, NativeWind, Expo Go
-- **Backend:** API Development, Django REST Framework: Serializers, QuerySets, ViewSets, Routers, Authentication and Permissions, PostgreSQL, OAuth, Postman 
+- **Backend:** API Development, Django REST Framework: Serializers, QuerySets, ViewSets, Routers, Authentication and Permissions, PostgreSQL, OAuth, Postman, SQL
 - **DevOps:** Linux, Networking, System Administration
 - **AI & Blockchain:** Exploring AI integration and smart contracts
-- **Other Languages and Tools:** C++, Cloudflare, Vercel, VS Code, MS Visual Studio, Miro, Figma, AWS, Python, Postman, PIP, NPM
+- **Other Languages and Tools:** C++, Cloudflare, Vercel, VS Code, MS Visual Studio, Miro, Figma, AWS, Python, Postman, PIP, NPM, Heroku
 
 ### Background:
 With a foundation in analytical chemistry and years of experience in IT support and customer travel support, I bring strong problem-solving and communication skills to tech. My goal is to develop solutions that simplify lives, empower businesses, and drive innovation in the most sustainable way possible.
