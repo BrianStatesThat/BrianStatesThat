@@ -12,7 +12,6 @@ I am a developer with growing expertise in Next.js, React, React Native and Java
 ### Skills & Tools:
 - **Frontend:** React, Next.js, JavaScript, Tailwind CSS, Motion, JSON, Zustand, Axios, React Router DOM, JWT, REST/GraphQL, Session-based authentication, React Native: Android Apps, NativeWind, Expo Go
 - **Backend:** API Development, Django REST Framework: Serializers, QuerySets, ViewSets, Routers, Authentication and Permissions, PostgreSQL, OAuth, Postman, SQL
-- **DevOps:** Linux, Networking, System Administration
 - **AI & Blockchain:** Exploring AI integration and smart contracts
 - **Other Languages and Tools:** C++, Cloudflare, Vercel, VS Code, MS Visual Studio, Miro, Figma, AWS, Python, Postman, PIP, NPM, Heroku
 
